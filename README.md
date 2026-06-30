@@ -84,7 +84,7 @@ When the index gets corrupted, conversations still exist on disk but don't show 
 If you prefer running the Python script directly, or if you are on **Mac** or **Linux** (which cannot run `.exe` files):
 
 ```bash
-python rebuild_conversations.py
+python3 rebuild_conversations.py
 ```
 
 Requires Python 3.7+ with no external packages. The script automatically detects your operating system and finds the correct `antigravity` folders.
